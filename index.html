@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<style>
+    #main {
+        background: #000;
+        color: #fff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0, 10px;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #li-decoration {
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+    }
+
+    #title {
+        font-family: Germania One;
+        color: red;
+        font-size: 5em;
+    }
+
+    #subtitle {
+        font-family: Germania One;
+        color: Green;
+        font-size: 3em;
+    }
+
+    #image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-right: auto;
+         margin-left: auto;
+    }
+</style>
+<html>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Germania+One&display=swap" rel="stylesheet">
+    <head>
+        <title>Greatest Song</title>
+    </head>
+    <body id="main">
+        <nav>
+            <ul id="li-decoration">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tribute</a></li>
+                <li><a id="tribute-link" target="_blank" href="https://www.amazon.com/Search-Inspirado-Angel-Disguise/dp/B00KGJNIOU/ref=sr_1_3?dchild=1&keywords=the+pick+of+destiny&qid=1616209546&sr=8-3">Buy</a></li>
+            </ul>
+        </nav>
+        <h1 id="title">The Greatest Song in the World</h1>
+        <h2 id="subtitle">A Tribute</h2>
+        <div id="img-div">
+            <img id="image" src="https://www.comingsoon.net/assets/uploads/2018/05/tenaciousd-e1525701336239.jpg" alt="Jack Black and Kyle Gas">
+            <figcaption id=img-caption>Had they only remembered...</figcaption>
+        </div>
+        <div id="tribute-info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum quis maxime a similique corrupti modi quasi sunt, sit enim repudiandae ipsum fuga reiciendis delectus natus, deleniti adipisci. Vel, totam.</p>
+        </div>
+    </body>
+</html>
